@@ -1,8 +1,8 @@
 {
   "name": "ui",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "source": true,
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.9.0",
@@ -11,6 +11,10 @@
     "store": "1.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "prop-types": "^15.7.2",
     "react-test-renderer": "^16.9.0"
   }
