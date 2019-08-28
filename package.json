@@ -1,0 +1,10 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "author": "Michel Mattos <7696411+michelmattos@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}
